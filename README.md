@@ -30,7 +30,7 @@
 ## 👩🏽‍💻 **Setup and Installation**
 Follow these steps to run the project in **Google Colab** and reproduce the results.
 
-* Open the Colab notebook [KPMG_1F_AI_ENERGY_Analsysis.ipynb](https://colab.research.google.com/github/abbyh1/AI-Energy-Prediction/blob/main/KPMG_1F_AI_ENERGY_Analsysis.ipynb)
+* Open the Colab notebook [KPMG_1F_AI_ENERGY_Analsysis.ipynb](https://colab.research.google.com/github/abbyh1/AI-Energy-Prediction-Engine/blob/main/KPMG_1F_AI_ENERGY_Analsysis.ipynb)
 
 2. Click **“File → Save a copy in Drive”** to make your own editable copy.
 
@@ -95,6 +95,4 @@ The notebook installs all required dependencies, loads the dataset, performs EDA
 
 
 ---
-
-## 📁 Repository Structure
 
