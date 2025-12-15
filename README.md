@@ -1,6 +1,6 @@
-# Your AI Studio Challenge Project Title Here
+# AI Energy Prediction Engine - Team KPMG 1F
 
-⚠️ _Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and examples in this template before finalizing your README._
+
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
-| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
+| Abigail Huang   | @abbyh1 | Data exploration, model developing, overall project coordination            |
 | Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
 | Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
 | Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
@@ -20,57 +20,49 @@
 
 ## 🎯 **Project Highlights**
 
-**Example:**
+- Developed three machine learning models to help KPMG use AI models more sustainably.
+- Achieved **R² > 0.99**, demonstrating strong predictive performance and business value for KPMG.
+- Generated actionable insights to inform business decisions at KPMG.
 
-- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
-- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
-- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
-- Implemented `[specific methodology]` to address industry constraints or expectations.
 
 ---
 
 ## 👩🏽‍💻 **Setup and Installation**
+Follow these steps to run the project in **Google Colab** and reproduce the results.
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+* Open the Colab notebook [KPMG_1F_AI_ENERGY_Analsysis.ipynb](https://colab.research.google.com/github/abbyh1/AI-Energy-Prediction/blob/main/KPMG_1F_AI_ENERGY_Analsysis.ipynb)
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+2. Click **“File → Save a copy in Drive”** to make your own editable copy.
+
+3. Follow the notebook instructions and run the cells **top to bottom**.
+
+The notebook installs all required dependencies, loads the dataset, performs EDA, trains the models, and evaluates results automatically.
+
 
 ---
 
 ## 🏗️ **Project Overview**
 
-**Describe:**
+*Help KPMG use AI models more strategically 
+*Predict and reduce the dollar cost, energy consumption (kWh), and carbon emissions associated with specific AI workloads 
+*Enable "what-if" scenario analysis to help KPMG and its clients select the most cost-effective configuration that meets their performance targets 
 
-- How this project is connected to the Break Through Tech AI Program
-- Your AI Studio host company and the project objective and scope
-- The real-world significance of the problem and the potential impact of your work
 
 ---
 
 ## 📊 **Data Exploration**
 
-**You might consider describing the following (as applicable):**
-
-* The dataset(s) used: origin, format, size, type of data
+* The dataset(s) used: ML.Energy Dataset
 * Data exploration and preprocessing approaches
 * Insights from your Exploratory Data Analysis (EDA)
 * Challenges and assumptions when working with the dataset(s)
 
-**Potential visualizations to include:**
-
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
 
 ---
 
 ## 🧠 **Model Development**
 
-**You might consider describing the following (as applicable):**
-
-* Model(s) used (e.g., CNN with transfer learning, regression models)
+* Model(s) used: Random Forest, XGBoost Regressor, Decision Tree
 * Feature selection and Hyperparameter tuning strategies
 * Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
 
@@ -79,46 +71,27 @@
 
 ## 📈 **Results & Key Findings**
 
-**You might consider describing the following (as applicable):**
-
-* Performance metrics (e.g., Accuracy, F1 score, RMSE)
-* How your model performed
-* Insights from evaluating model fairness
+* Random Forest Results: Train_R2: 0.9964  Test_R2: 0.9926  MAE: 0.0918   RMSE: 0.1432
+* XGBoost Regressor Results: Train_R2: 0.9882  Test_R2: 0.9744  MAE: 0.1864  RMSE: 0.2656
+* Decision Tree Results: Train_R2: 0.9882  Test_R2: 0.9744  MAE: 0.1864  RMSE: 0.2656
 
 **Potential visualizations to include:**
 
-* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+
 
 ---
 
 ## 🚀 **Next Steps**
 
-**You might consider addressing the following (as applicable):**
 
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+* Generate and train a new model (LSTM)
+* Decide GPU/model configs using a simple efficiency score and rank by ROI.
+* Develop the FastAPI service
 
----
-
-## 📝 **License**
-
-If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
-
-**Example:**
-This project is licensed under the MIT License.
 
 ---
 
-## 📄 **References** (Optional but encouraged)
 
-Cite relevant papers, articles, or resources that supported your project.
-
----
-
-## 🙏 **Acknowledgements** (Optional but encouraged)
-
-Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
 
 
 ---
