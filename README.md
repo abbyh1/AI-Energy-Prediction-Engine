@@ -1,137 +1,125 @@
-# 🔋 AI Energy Prediction Models
+# Your AI Studio Challenge Project Title Here
 
-Predicting energy consumption of AI workloads using machine learning models to support more sustainable and energy-aware AI systems.
-
----
-
-## 📌 Project Overview
-
-This project uses machine learning to predict **energy consumption and efficiency metrics** for AI workloads based on model architecture, hardware configuration, and runtime parameters. By estimating energy usage ahead of time, this work aims to support **responsible AI development** and **energy-efficient system design**.
+⚠️ _Update the above title with your AI Studio Challenge Project name. Remove all guidance notes and examples in this template before finalizing your README._
 
 ---
 
-## 👥 Team Members
+### 👥 **Team Members**
 
-| Name | GitHub | Contributions |
-|------|--------|---------------|
-| Your Name | @yourhandle | Data preprocessing, model training, evaluation |
-| Teammate Name | @handle | EDA, visualization, feature engineering |
-| Mentor / Advisor (optional) | — | Project guidance |
+**Example:**
 
----
-
-## ✨ Project Highlights
-
-- Built regression models to predict AI energy consumption
-- Implemented and compared **Decision Tree**, **Random Forest**, and **XGBoost**
-- Performed extensive exploratory data analysis (EDA)
-- Identified key features driving energy usage
-- Evaluated models using standard regression metrics
-- Visualized results for interpretability and insight
+| Name             | GitHub Handle | Contribution                                                             |
+|------------------|---------------|--------------------------------------------------------------------------|
+| Taylor Nguyen    | @taylornguyen | Data exploration, visualization, overall project coordination            |
+| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
+| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
+| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
 
 ---
 
-## 📊 Data Exploration (EDA)
+## 🎯 **Project Highlights**
 
-### Dataset
+**Example:**
 
-The dataset contains information about AI workloads and system configurations, including:
-
-- Model architecture and workload type
-- Hardware configuration (e.g., GPU type)
-- Runtime parameters (batch size, sequence length)
-- Power and energy measurements
-
-### Preprocessing
-
-- Removed missing and invalid records
-- Encoded categorical variables
-- Scaled numerical features when appropriate
-- Split data into training and testing sets
-
-### Key Insights
-
-- Energy usage increases non-linearly with batch size
-- Hardware choice strongly impacts power consumption
-- Certain model architectures consistently consume more energy
-
-### Visualizations
-
-- Energy consumption distributions  
-- Correlation heatmaps  
-- Energy vs. batch size plots  
-- Energy usage by model architecture  
-
-(See `figures/` for annotated plots.)
+- Developed a machine learning model using `[model type/technique]` to address `[challenge project task]`.
+- Achieved `[key metric or result]`, demonstrating `[value or impact]` for `[host company]`.
+- Generated actionable insights to inform business decisions at `[host company or stakeholders]`.
+- Implemented `[specific methodology]` to address industry constraints or expectations.
 
 ---
 
-## 🧠 Model Development
+## 👩🏽‍💻 **Setup and Installation**
 
-### Models Used
+**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
-- **Decision Tree Regressor**
-- **Random Forest Regressor**
-- **XGBoost Regressor**
-
-### Training Process
-
-- Hyperparameter tuning using cross-validation
-- Trained on processed feature set
-- Evaluated on held-out test data
-- Compared models across performance metrics
+* How to clone the repository
+* How to install dependencies
+* How to set up the environment
+* How to access the dataset(s)
+* How to run the notebook or scripts
 
 ---
 
-## 📈 Results & Key Findings
+## 🏗️ **Project Overview**
 
-### Performance Metrics
+**Describe:**
 
-Models were evaluated using:
-
-- **R² Score**
-- **Mean Absolute Error (MAE)**
-- **Root Mean Squared Error (RMSE)**
-
-| Model | R² | MAE | RMSE |
-|------|----|-----|------|
-| Decision Tree | XX | XX | XX |
-| Random Forest | XX | XX | XX |
-| XGBoost | **XX** | **XX** | **XX** |
-
-### Key Findings
-
-- XGBoost achieved the best overall predictive performance
-- Random Forest reduced variance and handled non-linear features well
-- Decision Tree provided interpretability but lower accuracy
-- Feature importance highlighted hardware and batch size as dominant predictors
-
-### Visualizations
-
-- Predicted vs. actual energy consumption
-- Feature importance plots
-- Model comparison charts
+- How this project is connected to the Break Through Tech AI Program
+- Your AI Studio host company and the project objective and scope
+- The real-world significance of the problem and the potential impact of your work
 
 ---
 
-## 🚀 Next Steps
+## 📊 **Data Exploration**
 
-- Incorporate deep learning models (LSTM, Transformer)
-- Expand dataset to additional hardware platforms
-- Add SHAP explainability for model interpretation
-- Build an interactive energy prediction dashboard
-- Extend predictions to carbon emissions and cost estimation
-- Deploy the model as a web API
+**You might consider describing the following (as applicable):**
+
+* The dataset(s) used: origin, format, size, type of data
+* Data exploration and preprocessing approaches
+* Insights from your Exploratory Data Analysis (EDA)
+* Challenges and assumptions when working with the dataset(s)
+
+**Potential visualizations to include:**
+
+* Plots, charts, heatmaps, feature visualizations, sample dataset images
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 **Model Development**
 
-- Python
-- scikit-learn
-- XGBoost
-- pandas, NumPy
-- matplotlib, seaborn
+**You might consider describing the following (as applicable):**
+
+* Model(s) used (e.g., CNN with transfer learning, regression models)
+* Feature selection and Hyperparameter tuning strategies
+* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+
+
+---
+
+## 📈 **Results & Key Findings**
+
+**You might consider describing the following (as applicable):**
+
+* Performance metrics (e.g., Accuracy, F1 score, RMSE)
+* How your model performed
+* Insights from evaluating model fairness
+
+**Potential visualizations to include:**
+
+* Confusion matrix, precision-recall curve, feature importance plot, prediction distribution, outputs from fairness or explainability tools
+
+---
+
+## 🚀 **Next Steps**
+
+**You might consider addressing the following (as applicable):**
+
+* What are some of the limitations of your model?
+* What would you do differently with more time/resources?
+* What additional datasets or techniques would you explore?
+
+---
+
+## 📝 **License**
+
+If applicable, indicate how your project can be used by others by specifying and linking to an open source license type (e.g., MIT, Apache 2.0). Make sure your Challenge Advisor approves of the selected license type.
+
+**Example:**
+This project is licensed under the MIT License.
+
+---
+
+## 📄 **References** (Optional but encouraged)
+
+Cite relevant papers, articles, or resources that supported your project.
+
+---
+
+## 🙏 **Acknowledgements** (Optional but encouraged)
+
+Thank your Challenge Advisor, host company representatives, TA, and others who supported your project.
+
 
 ---
 
