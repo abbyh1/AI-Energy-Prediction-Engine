@@ -11,10 +11,8 @@
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Abigail Huang   | @abbyh1 | Data exploration, model developing, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Alou Kone  | @akone42 | Data collection, exploratory data analysis (EDA), dataset documentation  |
+
 
 ---
 
@@ -43,9 +41,9 @@ The notebook installs all required dependencies, loads the dataset, performs EDA
 
 ## 🏗️ **Project Overview**
 
-*Help KPMG use AI models more strategically 
-*Predict and reduce the dollar cost, energy consumption (kWh), and carbon emissions associated with specific AI workloads 
-*Enable "what-if" scenario analysis to help KPMG and its clients select the most cost-effective configuration that meets their performance targets 
+* Help KPMG use AI models more strategically 
+* Predict and reduce the dollar cost, energy consumption (kWh), and carbon emissions associated with specific AI workloads 
+* Enable "what-if" scenario analysis to help KPMG and its clients select the most cost-effective configuration that meets their performance targets 
 
 
 ---
