@@ -6,15 +6,12 @@
 
 ### 👥 **Team Members**
 
-**Example:**
 
 | Name             | GitHub Handle | Contribution                                                             |
 |------------------|---------------|--------------------------------------------------------------------------|
 | Abigail Huang   | @abbyh1 | Data exploration, model developing, overall project coordination            |
-| Jordan Ramirez   | @jramirez     | Data collection, exploratory data analysis (EDA), dataset documentation  |
-| Amina Hassan     | @aminahassan  | Data preprocessing, feature engineering, data validation                 |
-| Priya Mehta      | @pmehta       | Model selection, hyperparameter tuning, model training and optimization  |
-| Chris Park       | @chrispark    | Model evaluation, performance analysis, results interpretation           |
+| Alou Kone  | @akone42    | Data collection, exploratory data analysis, dataset documentation  |
+
 
 ---
 
@@ -43,9 +40,9 @@ The notebook installs all required dependencies, loads the dataset, performs EDA
 
 ## 🏗️ **Project Overview**
 
-*Help KPMG use AI models more strategically 
-*Predict and reduce the dollar cost, energy consumption (kWh), and carbon emissions associated with specific AI workloads 
-*Enable "what-if" scenario analysis to help KPMG and its clients select the most cost-effective configuration that meets their performance targets 
+* Help KPMG use AI models more strategically 
+* Predict and reduce the dollar cost, energy consumption (kWh), and carbon emissions associated with specific AI workloads 
+* Enable "what-if" scenario analysis to help KPMG and its clients select the most cost-effective configuration that meets their performance targets 
 
 
 ---
@@ -117,9 +114,6 @@ Despite these challenges, feature engineering and normalization enabled the mode
 * Random Forest Results: Train_R2: 0.9964  Test_R2: 0.9926  MAE: 0.0918   RMSE: 0.1432
 * XGBoost Regressor Results: Train_R2: 0.9882  Test_R2: 0.9744  MAE: 0.1864  RMSE: 0.2656
 * Decision Tree Results: Train_R2: 0.9882  Test_R2: 0.9744  MAE: 0.1864  RMSE: 0.2656
-
-**Potential visualizations to include:**
-
 
 
 ---
