@@ -50,12 +50,55 @@ The notebook installs all required dependencies, loads the dataset, performs EDA
 
 ---
 
-## 📊 **Data Exploration**
+## 📊 Data Exploration
 
-* The dataset(s) used: ML.Energy Dataset
-* Data exploration and preprocessing approaches
-* Insights from your Exploratory Data Analysis (EDA)
-* Challenges and assumptions when working with the dataset(s)
+### Dataset
+
+This project uses the **ML.Energy Dataset**, which contains detailed measurements of energy consumption and performance for AI workloads across different model architectures, hardware configurations, and runtime settings. Key variables include batch size, GPU type, token throughput, latency, parallelism settings, and total energy usage (in joules).
+
+---
+
+### Data Exploration & Preprocessing
+
+Exploratory Data Analysis (EDA) was performed to understand feature distributions, relationships, and potential sources of noise. Preprocessing steps included:
+
+- Filtering out invalid or missing energy measurements
+- Handling missing values in categorical fields (e.g., GPU type)
+- Normalizing and scaling numerical features where appropriate
+- Encoding categorical variables such as GPU type and engineered GPU tiers
+
+To better capture system-level behavior, several **task-level engineered features** were introduced:
+
+- **Energy per batch unit**:  
+  Total energy consumption normalized by batch size  
+  → captures energy efficiency across workloads
+
+- **Tokens per joule**:  
+  Token throughput divided by total energy  
+  → measures energy efficiency for LLM-style tasks
+
+- **Latency per batch**:  
+  Batch latency normalized by batch size  
+  → helps compare latency across different workload scales
+
+- **GPU tier classification**:  
+  GPUs were grouped into tiers (flagship, enterprise, mid-range, entry) based on model name  
+  → improves generalization and reduces hardware sparsity
+
+- **Parallelism indicator**:  
+  Binary feature indicating whether tensor or pipeline parallelism was used  
+  → captures scaling effects in distributed workloads
+
+---
+
+### Challenges & Assumptions
+
+- **Heterogeneous workloads**: The dataset includes a wide variety of models and configurations, which introduces variance that cannot be fully controlled.
+- **Incomplete hardware metadata**: Some GPU entries were missing or inconsistent, requiring assumptions during tier classification.
+- **Task-specific features**: Metrics such as token throughput are only meaningful for certain workloads (e.g., LLMs), so assumptions were made when engineering efficiency features.
+- **Measurement noise**: Energy readings may vary due to background system processes and benchmarking conditions.
+
+Despite these challenges, feature engineering and normalization enabled the models to learn meaningful relationships between system configuration and energy usage.
 
 
 ---
