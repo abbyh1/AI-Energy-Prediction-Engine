@@ -12,6 +12,7 @@
 |------------------|---------------|--------------------------------------------------------------------------|
 | Abigail Huang   | @abbyh1 | Data exploration, model developing, overall project coordination            |
 | Alou Kone  | @akone42 | Data collection, exploratory data analysis (EDA), dataset documentation  |
+| Sapna Patel  | @sapnapatel811 | Data collection, data understanding, EDA, model developing  |
 
 
 ---
